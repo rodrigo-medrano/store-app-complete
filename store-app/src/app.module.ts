@@ -12,7 +12,7 @@ import { ConfigModule } from '@nestjs/config';
   imports: [
     ProductsModule,
     MongooseModule.forRoot(
-      'mongodb://mrodrigo:storeApp12@localhost:27017/supermercadodb',
+      'mongodb://ggary:storeApp12@localhost:27017/supermercadodb',
     ),
     CommonModule,
     SuppliesModule,
